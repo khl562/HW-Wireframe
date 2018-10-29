@@ -24,8 +24,8 @@ header {
 section {
     background: #ebebeb;
     width:495px;
-    margin-left: 20px;
-    height: 300px;
+    margin-left: 15px;
+    height: 315px;
     float: left;
 }
 
@@ -62,9 +62,10 @@ aside {
     width: 390px;
     float: left;
     margin-left: 15px;
-    height: 300px;
+    height: 315px;
 }
 
 footer {
     background: #ebebeb;
+    margin: 20px;
 }
