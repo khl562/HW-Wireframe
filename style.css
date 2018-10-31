@@ -6,6 +6,7 @@
     font-size: 18px;
     color: #777;
     text-align: center;
+    overflow: auto;
 }
 
 
@@ -22,14 +23,16 @@ header {
 }
 
 section {
+    position: relative;
     background: #ebebeb;
-    width:495px;
-    margin-left: 15px;
+    width:490px;
+    margin-left: 20px;
     height: 315px;
     float: left;
 }
 
 #article {
+    position: absolute;
     float: left;
     width: 465px;
     color:#ebebeb;
@@ -40,6 +43,8 @@ section {
 }
 
 #h {
+    position: absolute;
+    top: 75px;
     width: 435px;
     color:#777;
     background-color: #ebebeb;
@@ -49,6 +54,7 @@ section {
 }
 
 #p {
+    position: absolute;
     width: 435px;
     color:#777;
     background-color: #ebebeb;
@@ -59,7 +65,7 @@ section {
 
 aside {
     background: #ebebeb;
-    width: 390px;
+    width: 415px;
     float: left;
     margin-left: 15px;
     height: 315px;
@@ -68,4 +74,6 @@ aside {
 footer {
     background: #ebebeb;
     margin: 20px;
+    margin-top: 350px;
+    padding-top: 50px;
 }
