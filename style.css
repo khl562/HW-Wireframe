@@ -31,6 +31,10 @@ section {
     float: left;
 }
 
+section, aside {
+    margin-bottom: 20px;
+}
+
 #article {
     position: absolute;
     float: left;
@@ -74,6 +78,6 @@ aside {
 footer {
     background: #ebebeb;
     margin: 20px;
-    margin-top: 350px;
     padding-top: 50px;
+    clear:both;
 }
